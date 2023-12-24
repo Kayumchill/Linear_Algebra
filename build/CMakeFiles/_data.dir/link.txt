@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc lib_data.a CMakeFiles/_data.dir/sources/database/data.cpp.obj
+C:\MinGW\bin\ranlib.exe lib_data.a

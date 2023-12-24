@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc lib_excp.a CMakeFiles/_excp.dir/sources/libraries/exception.cpp.obj
+C:\MinGW\bin\ranlib.exe lib_excp.a

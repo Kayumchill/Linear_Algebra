@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc lib_term.a CMakeFiles/_term.dir/sources/libraries/terminal.cpp.obj
+C:\MinGW\bin\ranlib.exe lib_term.a

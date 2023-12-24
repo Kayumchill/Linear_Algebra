@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc lib_algb.a CMakeFiles/_algb.dir/sources/libraries/algebra.cpp.obj
+C:\MinGW\bin\ranlib.exe lib_algb.a

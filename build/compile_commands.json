@@ -1,0 +1,56 @@
+[
+{
+  "directory": "C:/CPP/test_algebra/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/_pars.dir/includes_CXX.rsp -g -std=gnu++1z -Wall -ggdb -o CMakeFiles\\_pars.dir\\sources\\libraries\\parsing.cpp.obj -c C:\\CPP\\test_algebra\\sources\\libraries\\parsing.cpp",
+  "file": "C:/CPP/test_algebra/sources/libraries/parsing.cpp",
+  "output": "CMakeFiles/_pars.dir/sources/libraries/parsing.cpp.obj"
+},
+{
+  "directory": "C:/CPP/test_algebra/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/_intp.dir/includes_CXX.rsp -g -std=gnu++1z -Wall -ggdb -o CMakeFiles\\_intp.dir\\sources\\interface\\intepreter.cpp.obj -c C:\\CPP\\test_algebra\\sources\\interface\\intepreter.cpp",
+  "file": "C:/CPP/test_algebra/sources/interface/intepreter.cpp",
+  "output": "CMakeFiles/_intp.dir/sources/interface/intepreter.cpp.obj"
+},
+{
+  "directory": "C:/CPP/test_algebra/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/_excp.dir/includes_CXX.rsp -g -std=gnu++1z -Wall -ggdb -o CMakeFiles\\_excp.dir\\sources\\libraries\\exception.cpp.obj -c C:\\CPP\\test_algebra\\sources\\libraries\\exception.cpp",
+  "file": "C:/CPP/test_algebra/sources/libraries/exception.cpp",
+  "output": "CMakeFiles/_excp.dir/sources/libraries/exception.cpp.obj"
+},
+{
+  "directory": "C:/CPP/test_algebra/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/_algb.dir/includes_CXX.rsp -g -std=gnu++1z -Wall -ggdb -o CMakeFiles\\_algb.dir\\sources\\libraries\\algebra.cpp.obj -c C:\\CPP\\test_algebra\\sources\\libraries\\algebra.cpp",
+  "file": "C:/CPP/test_algebra/sources/libraries/algebra.cpp",
+  "output": "CMakeFiles/_algb.dir/sources/libraries/algebra.cpp.obj"
+},
+{
+  "directory": "C:/CPP/test_algebra/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/_file.dir/includes_CXX.rsp -g -std=gnu++1z -Wall -ggdb -o CMakeFiles\\_file.dir\\sources\\libraries\\file.cpp.obj -c C:\\CPP\\test_algebra\\sources\\libraries\\file.cpp",
+  "file": "C:/CPP/test_algebra/sources/libraries/file.cpp",
+  "output": "CMakeFiles/_file.dir/sources/libraries/file.cpp.obj"
+},
+{
+  "directory": "C:/CPP/test_algebra/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/_sntx.dir/includes_CXX.rsp -g -std=gnu++1z -Wall -ggdb -o CMakeFiles\\_sntx.dir\\sources\\libraries\\syntax.cpp.obj -c C:\\CPP\\test_algebra\\sources\\libraries\\syntax.cpp",
+  "file": "C:/CPP/test_algebra/sources/libraries/syntax.cpp",
+  "output": "CMakeFiles/_sntx.dir/sources/libraries/syntax.cpp.obj"
+},
+{
+  "directory": "C:/CPP/test_algebra/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/_term.dir/includes_CXX.rsp -g -std=gnu++1z -Wall -ggdb -o CMakeFiles\\_term.dir\\sources\\libraries\\terminal.cpp.obj -c C:\\CPP\\test_algebra\\sources\\libraries\\terminal.cpp",
+  "file": "C:/CPP/test_algebra/sources/libraries/terminal.cpp",
+  "output": "CMakeFiles/_term.dir/sources/libraries/terminal.cpp.obj"
+},
+{
+  "directory": "C:/CPP/test_algebra/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/_data.dir/includes_CXX.rsp -g -std=gnu++1z -Wall -ggdb -o CMakeFiles\\_data.dir\\sources\\database\\data.cpp.obj -c C:\\CPP\\test_algebra\\sources\\database\\data.cpp",
+  "file": "C:/CPP/test_algebra/sources/database/data.cpp",
+  "output": "CMakeFiles/_data.dir/sources/database/data.cpp.obj"
+},
+{
+  "directory": "C:/CPP/test_algebra/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/algebra.dir/includes_CXX.rsp -g -std=gnu++1z -Wall -ggdb -o CMakeFiles\\algebra.dir\\main.cpp.obj -c C:\\CPP\\test_algebra\\main.cpp",
+  "file": "C:/CPP/test_algebra/main.cpp",
+  "output": "CMakeFiles/algebra.dir/main.cpp.obj"
+}
+]

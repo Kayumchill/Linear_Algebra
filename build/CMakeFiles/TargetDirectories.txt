@@ -1,0 +1,13 @@
+C:/CPP/test_algebra/build/CMakeFiles/_intp.dir
+C:/CPP/test_algebra/build/CMakeFiles/_algb.dir
+C:/CPP/test_algebra/build/CMakeFiles/_excp.dir
+C:/CPP/test_algebra/build/CMakeFiles/_file.dir
+C:/CPP/test_algebra/build/CMakeFiles/_pars.dir
+C:/CPP/test_algebra/build/CMakeFiles/_sntx.dir
+C:/CPP/test_algebra/build/CMakeFiles/_term.dir
+C:/CPP/test_algebra/build/CMakeFiles/_data.dir
+C:/CPP/test_algebra/build/CMakeFiles/algebra.dir
+C:/CPP/test_algebra/build/CMakeFiles/package.dir
+C:/CPP/test_algebra/build/CMakeFiles/package_source.dir
+C:/CPP/test_algebra/build/CMakeFiles/edit_cache.dir
+C:/CPP/test_algebra/build/CMakeFiles/rebuild_cache.dir

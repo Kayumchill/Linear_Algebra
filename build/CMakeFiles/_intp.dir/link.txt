@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc lib_intp.a CMakeFiles/_intp.dir/sources/interface/intepreter.cpp.obj
+C:\MinGW\bin\ranlib.exe lib_intp.a

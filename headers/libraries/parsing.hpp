@@ -46,9 +46,9 @@ namespace libs
 }
 float libs::line_to_float(const std::string& line)
 {
-  std::stof(line);
+  return (std::stof(line));
 }
 std::intmax_t libs::line_to_int(std::string& line)
 {
-  std::stoi(line);
+ return (std::stoi(line));
 }
