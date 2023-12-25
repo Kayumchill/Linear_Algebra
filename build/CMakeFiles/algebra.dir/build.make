@@ -94,6 +94,7 @@ algebra.exe: CMakeFiles/algebra.dir/main.cpp.obj
 algebra.exe: CMakeFiles/algebra.dir/build.make
 algebra.exe: lib_intp.a
 algebra.exe: lib_pars.a
+algebra.exe: lib_excp.a
 algebra.exe: CMakeFiles/algebra.dir/linkLibs.rsp
 algebra.exe: CMakeFiles/algebra.dir/objects1.rsp
 algebra.exe: CMakeFiles/algebra.dir/link.txt

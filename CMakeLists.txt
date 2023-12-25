@@ -55,7 +55,7 @@ add_library(_data STATIC ${DATA})
 add_executable(${PROJECT_NAME} main.cpp)
 
 target_link_libraries(${PROJECT_NAME} PRIVATE _intp)
-target_link_libraries(_intp _pars)
+target_link_libraries(_intp _pars _excp)
 target_link_libraries(_algb _pars _excp)
 target_link_libraries(_file _pars)
 target_link_libraries(_sntx _pars)

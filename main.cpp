@@ -2,7 +2,7 @@
 #include "intepreter.hpp"
 #include "parsing.hpp"
 #include "syntax.hpp"
-#include "Data.hpp"
+#include "data.hpp"
 int main()
 {
     std::string file = "C:\\Users\\User\\Desktop\\test_algebra\\log.txt";

@@ -1,6 +1,12 @@
 [
 {
   "directory": "C:/CPP/test_algebra/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/_excp.dir/includes_CXX.rsp -g -std=gnu++1z -Wall -ggdb -o CMakeFiles\\_excp.dir\\sources\\libraries\\exception.cpp.obj -c C:\\CPP\\test_algebra\\sources\\libraries\\exception.cpp",
+  "file": "C:/CPP/test_algebra/sources/libraries/exception.cpp",
+  "output": "CMakeFiles/_excp.dir/sources/libraries/exception.cpp.obj"
+},
+{
+  "directory": "C:/CPP/test_algebra/build",
   "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/_pars.dir/includes_CXX.rsp -g -std=gnu++1z -Wall -ggdb -o CMakeFiles\\_pars.dir\\sources\\libraries\\parsing.cpp.obj -c C:\\CPP\\test_algebra\\sources\\libraries\\parsing.cpp",
   "file": "C:/CPP/test_algebra/sources/libraries/parsing.cpp",
   "output": "CMakeFiles/_pars.dir/sources/libraries/parsing.cpp.obj"
@@ -10,12 +16,6 @@
   "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/_intp.dir/includes_CXX.rsp -g -std=gnu++1z -Wall -ggdb -o CMakeFiles\\_intp.dir\\sources\\interface\\intepreter.cpp.obj -c C:\\CPP\\test_algebra\\sources\\interface\\intepreter.cpp",
   "file": "C:/CPP/test_algebra/sources/interface/intepreter.cpp",
   "output": "CMakeFiles/_intp.dir/sources/interface/intepreter.cpp.obj"
-},
-{
-  "directory": "C:/CPP/test_algebra/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/_excp.dir/includes_CXX.rsp -g -std=gnu++1z -Wall -ggdb -o CMakeFiles\\_excp.dir\\sources\\libraries\\exception.cpp.obj -c C:\\CPP\\test_algebra\\sources\\libraries\\exception.cpp",
-  "file": "C:/CPP/test_algebra/sources/libraries/exception.cpp",
-  "output": "CMakeFiles/_excp.dir/sources/libraries/exception.cpp.obj"
 },
 {
   "directory": "C:/CPP/test_algebra/build",
