@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc lib_deva.a CMakeFiles/_deva.dir/sources/database/DefaultValues.cpp.obj
+C:\MinGW\bin\ranlib.exe lib_deva.a

@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "lib_excp.a"
+			"path" : "lib_pars.a"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 44,
+				"line" : 50,
 				"parent" : 0
 			},
 			{
@@ -103,9 +103,9 @@
 			]
 		}
 	],
-	"id" : "_excp::@6890427a1f51a3e7e1df",
-	"name" : "_excp",
-	"nameOnDisk" : "lib_excp.a",
+	"id" : "_pars::@6890427a1f51a3e7e1df",
+	"name" : "_pars",
+	"nameOnDisk" : "lib_pars.a",
 	"paths" : 
 	{
 		"build" : ".",
@@ -132,13 +132,13 @@
 	[
 		{
 			"backtrace" : 1,
-			"path" : "headers/libraries/exception.hpp",
+			"path" : "headers/libraries/parsing.hpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "sources/libraries/exception.cpp",
+			"path" : "sources/libraries/parsing.cpp",
 			"sourceGroupIndex" : 1
 		}
 	],

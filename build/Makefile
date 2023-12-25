@@ -240,6 +240,45 @@ _data/fast:
 .PHONY : _data/fast
 
 #=============================================================================
+# Target rules for targets named _dase
+
+# Build rule for target.
+_dase: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _dase
+.PHONY : _dase
+
+# fast build rule for target.
+_dase/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\_dase.dir\build.make CMakeFiles/_dase.dir/build
+.PHONY : _dase/fast
+
+#=============================================================================
+# Target rules for targets named _deva
+
+# Build rule for target.
+_deva: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deva
+.PHONY : _deva
+
+# fast build rule for target.
+_deva/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\_deva.dir\build.make CMakeFiles/_deva.dir/build
+.PHONY : _deva/fast
+
+#=============================================================================
+# Target rules for targets named _mapt
+
+# Build rule for target.
+_mapt: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _mapt
+.PHONY : _mapt
+
+# fast build rule for target.
+_mapt/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\_mapt.dir\build.make CMakeFiles/_mapt.dir/build
+.PHONY : _mapt/fast
+
+#=============================================================================
 # Target rules for targets named algebra
 
 # Build rule for target.
@@ -275,6 +314,78 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algebra.dir\build.make CMakeFiles/algebra.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+sources/database/DataBase.obj: sources/database/DataBase.cpp.obj
+.PHONY : sources/database/DataBase.obj
+
+# target to build an object file
+sources/database/DataBase.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\_dase.dir\build.make CMakeFiles/_dase.dir/sources/database/DataBase.cpp.obj
+.PHONY : sources/database/DataBase.cpp.obj
+
+sources/database/DataBase.i: sources/database/DataBase.cpp.i
+.PHONY : sources/database/DataBase.i
+
+# target to preprocess a source file
+sources/database/DataBase.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\_dase.dir\build.make CMakeFiles/_dase.dir/sources/database/DataBase.cpp.i
+.PHONY : sources/database/DataBase.cpp.i
+
+sources/database/DataBase.s: sources/database/DataBase.cpp.s
+.PHONY : sources/database/DataBase.s
+
+# target to generate assembly for a file
+sources/database/DataBase.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\_dase.dir\build.make CMakeFiles/_dase.dir/sources/database/DataBase.cpp.s
+.PHONY : sources/database/DataBase.cpp.s
+
+sources/database/DefaultValues.obj: sources/database/DefaultValues.cpp.obj
+.PHONY : sources/database/DefaultValues.obj
+
+# target to build an object file
+sources/database/DefaultValues.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\_deva.dir\build.make CMakeFiles/_deva.dir/sources/database/DefaultValues.cpp.obj
+.PHONY : sources/database/DefaultValues.cpp.obj
+
+sources/database/DefaultValues.i: sources/database/DefaultValues.cpp.i
+.PHONY : sources/database/DefaultValues.i
+
+# target to preprocess a source file
+sources/database/DefaultValues.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\_deva.dir\build.make CMakeFiles/_deva.dir/sources/database/DefaultValues.cpp.i
+.PHONY : sources/database/DefaultValues.cpp.i
+
+sources/database/DefaultValues.s: sources/database/DefaultValues.cpp.s
+.PHONY : sources/database/DefaultValues.s
+
+# target to generate assembly for a file
+sources/database/DefaultValues.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\_deva.dir\build.make CMakeFiles/_deva.dir/sources/database/DefaultValues.cpp.s
+.PHONY : sources/database/DefaultValues.cpp.s
+
+sources/database/MapTabel.obj: sources/database/MapTabel.cpp.obj
+.PHONY : sources/database/MapTabel.obj
+
+# target to build an object file
+sources/database/MapTabel.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\_mapt.dir\build.make CMakeFiles/_mapt.dir/sources/database/MapTabel.cpp.obj
+.PHONY : sources/database/MapTabel.cpp.obj
+
+sources/database/MapTabel.i: sources/database/MapTabel.cpp.i
+.PHONY : sources/database/MapTabel.i
+
+# target to preprocess a source file
+sources/database/MapTabel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\_mapt.dir\build.make CMakeFiles/_mapt.dir/sources/database/MapTabel.cpp.i
+.PHONY : sources/database/MapTabel.cpp.i
+
+sources/database/MapTabel.s: sources/database/MapTabel.cpp.s
+.PHONY : sources/database/MapTabel.s
+
+# target to generate assembly for a file
+sources/database/MapTabel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\_mapt.dir\build.make CMakeFiles/_mapt.dir/sources/database/MapTabel.cpp.s
+.PHONY : sources/database/MapTabel.cpp.s
 
 sources/database/data.obj: sources/database/data.cpp.obj
 .PHONY : sources/database/data.obj
@@ -479,10 +590,13 @@ help:
 	@echo ... package_source
 	@echo ... rebuild_cache
 	@echo ... _algb
+	@echo ... _dase
 	@echo ... _data
+	@echo ... _deva
 	@echo ... _excp
 	@echo ... _file
 	@echo ... _intp
+	@echo ... _mapt
 	@echo ... _pars
 	@echo ... _sntx
 	@echo ... _term
@@ -490,6 +604,15 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... sources/database/DataBase.obj
+	@echo ... sources/database/DataBase.i
+	@echo ... sources/database/DataBase.s
+	@echo ... sources/database/DefaultValues.obj
+	@echo ... sources/database/DefaultValues.i
+	@echo ... sources/database/DefaultValues.s
+	@echo ... sources/database/MapTabel.obj
+	@echo ... sources/database/MapTabel.i
+	@echo ... sources/database/MapTabel.s
 	@echo ... sources/database/data.obj
 	@echo ... sources/database/data.i
 	@echo ... sources/database/data.s

@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc lib_dase.a CMakeFiles/_dase.dir/sources/database/DataBase.cpp.obj
+C:\MinGW\bin\ranlib.exe lib_dase.a

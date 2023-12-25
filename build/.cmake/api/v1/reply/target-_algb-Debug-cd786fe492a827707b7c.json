@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "lib_term.a"
+			"path" : "lib_algb.a"
 		}
 	],
 	"backtrace" : 1,
@@ -28,13 +28,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 48,
+				"line" : 47,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 62,
+				"line" : 66,
 				"parent" : 0
 			},
 			{
@@ -114,16 +114,16 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "_file::@6890427a1f51a3e7e1df"
+			"id" : "_excp::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 2,
 			"id" : "_pars::@6890427a1f51a3e7e1df"
 		}
 	],
-	"id" : "_term::@6890427a1f51a3e7e1df",
-	"name" : "_term",
-	"nameOnDisk" : "lib_term.a",
+	"id" : "_algb::@6890427a1f51a3e7e1df",
+	"name" : "_algb",
+	"nameOnDisk" : "lib_algb.a",
 	"paths" : 
 	{
 		"build" : ".",
@@ -150,13 +150,13 @@
 	[
 		{
 			"backtrace" : 1,
-			"path" : "headers/libraries/terminal.hpp",
+			"path" : "headers/libraries/algebra.hpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "sources/libraries/terminal.cpp",
+			"path" : "sources/libraries/algebra.cpp",
 			"sourceGroupIndex" : 1
 		}
 	],

@@ -34,7 +34,11 @@ set(LIBS_SNTX ${HDRS}/${LIBS}/syntax.hpp ${SRCS}/${LIBS}/syntax.cpp)
 set(LIBS_TERM ${HDRS}/${LIBS}/terminal.hpp ${SRCS}/${LIBS}/terminal.cpp)
 
 #database
-set(DATA ${HDRS}/${DABA}/data.hpp ${SRCS}/${DABA}/data.cpp)
+set(DABA_DATA ${HDRS}/${DABA}/data.hpp ${SRCS}/${DABA}/data.cpp)
+set(DABA_DASE ${HDRS}/${DABA}/DataBase.hpp ${SRCS}/${DABA}/DataBase.cpp)
+set(DABA_DEVA ${HDRS}/${DABA}/DefaultValues.hpp ${SRCS}/${DABA}/DefaultValues.cpp)
+set(DABA_MAPT ${HDRS}/${DABA}/MapTabel.hpp ${SRCS}/${DABA}/MapTabel.cpp)
+
 
 #interface
 add_library(_intp STATIC ${INTP})
@@ -48,7 +52,10 @@ add_library(_sntx STATIC ${LIBS_SNTX})
 add_library(_term STATIC ${LIBS_TERM})
 
 #database
-add_library(_data STATIC ${DATA})
+add_library(_data STATIC ${DABA_DATA})
+add_library(_dase STATIC ${DABA_DASE})
+add_library(_deva STATIC ${DABA_DEVA})
+add_library(_mapt STATIC ${DABA_MAPT})
 
 
 #main

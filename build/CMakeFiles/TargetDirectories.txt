@@ -6,6 +6,9 @@ C:/CPP/test_algebra/build/CMakeFiles/_pars.dir
 C:/CPP/test_algebra/build/CMakeFiles/_sntx.dir
 C:/CPP/test_algebra/build/CMakeFiles/_term.dir
 C:/CPP/test_algebra/build/CMakeFiles/_data.dir
+C:/CPP/test_algebra/build/CMakeFiles/_dase.dir
+C:/CPP/test_algebra/build/CMakeFiles/_deva.dir
+C:/CPP/test_algebra/build/CMakeFiles/_mapt.dir
 C:/CPP/test_algebra/build/CMakeFiles/algebra.dir
 C:/CPP/test_algebra/build/CMakeFiles/package.dir
 C:/CPP/test_algebra/build/CMakeFiles/package_source.dir

@@ -21,14 +21,14 @@
 	TotalVirtualMemory="12964"
 	TotalPhysicalMemory="8100"
 	LogicalProcessorsPerPhysical="2"
-	ProcessorClockFrequency="2413"
+	ProcessorClockFrequency="2400"
 	>
 	<Testing>
-		<StartDateTime>Dec 25 20:48 RTZ 2 ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</StartDateTime>
-		<StartTestTime>1703526517</StartTestTime>
+		<StartDateTime>Dec 25 21:28 RTZ 2 ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</StartDateTime>
+		<StartTestTime>1703528920</StartTestTime>
 		<TestList/>
-		<EndDateTime>Dec 25 20:48 RTZ 2 ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</EndDateTime>
-		<EndTestTime>1703526517</EndTestTime>
+		<EndDateTime>Dec 25 21:28 RTZ 2 ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</EndDateTime>
+		<EndTestTime>1703528920</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

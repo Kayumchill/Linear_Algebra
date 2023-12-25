@@ -49,6 +49,24 @@
 },
 {
   "directory": "C:/CPP/test_algebra/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/_dase.dir/includes_CXX.rsp -g -std=gnu++1z -Wall -ggdb -o CMakeFiles\\_dase.dir\\sources\\database\\DataBase.cpp.obj -c C:\\CPP\\test_algebra\\sources\\database\\DataBase.cpp",
+  "file": "C:/CPP/test_algebra/sources/database/DataBase.cpp",
+  "output": "CMakeFiles/_dase.dir/sources/database/DataBase.cpp.obj"
+},
+{
+  "directory": "C:/CPP/test_algebra/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/_deva.dir/includes_CXX.rsp -g -std=gnu++1z -Wall -ggdb -o CMakeFiles\\_deva.dir\\sources\\database\\DefaultValues.cpp.obj -c C:\\CPP\\test_algebra\\sources\\database\\DefaultValues.cpp",
+  "file": "C:/CPP/test_algebra/sources/database/DefaultValues.cpp",
+  "output": "CMakeFiles/_deva.dir/sources/database/DefaultValues.cpp.obj"
+},
+{
+  "directory": "C:/CPP/test_algebra/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/_mapt.dir/includes_CXX.rsp -g -std=gnu++1z -Wall -ggdb -o CMakeFiles\\_mapt.dir\\sources\\database\\MapTabel.cpp.obj -c C:\\CPP\\test_algebra\\sources\\database\\MapTabel.cpp",
+  "file": "C:/CPP/test_algebra/sources/database/MapTabel.cpp",
+  "output": "CMakeFiles/_mapt.dir/sources/database/MapTabel.cpp.obj"
+},
+{
+  "directory": "C:/CPP/test_algebra/build",
   "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/algebra.dir/includes_CXX.rsp -g -std=gnu++1z -Wall -ggdb -o CMakeFiles\\algebra.dir\\main.cpp.obj -c C:\\CPP\\test_algebra\\main.cpp",
   "file": "C:/CPP/test_algebra/main.cpp",
   "output": "CMakeFiles/algebra.dir/main.cpp.obj"
