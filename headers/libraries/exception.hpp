@@ -10,18 +10,18 @@ namespace exc
     public:
         const char *what() const noexcept
         {
-            return this->message_.c_str();//Теперь можно использовать cstr, как обычный массив символов
-            //Этот указатель может использоваться для доступа к содержимому строки как к обычному массиву символов
+            return this->message_.c_str(); // Теперь можно использовать cstr, как обычный массив символов
+            // Этот указатель может использоваться для доступа к содержимому строки как к обычному массиву символов
         }
 
     protected:
-        explicit Exception(const std::string &message) noexcept : message_{message}//explicit - неявное приведение типов, т.е при констурктор необходимо вызвать явно: Exception myException(errorMessage)
-        //для преобразования строк в объекты Exception. данный констрктор будет вызван только в том случае, если получит объект класса
+        explicit Exception(const std::string &message) noexcept : message_{message} // explicit - неявное приведение типов, т.е при констурктор необходимо вызвать явно: Exception myException(errorMessage)
+        // для преобразования строк в объекты Exception. данный констрктор будет вызван только в том случае, если получит объект класса
         {
         }
 
     private:
-        const std::string message_;//содержит сообщение об ошибке
+        const std::string message_; // содержит сообщение об ошибке
     };
 
     struct invalid_data : public Exception
@@ -48,4 +48,12 @@ namespace exc
         undefined_data(const std::string &message) : Exception{
                                                          "Undefined data. Code: " + message + "."} {}
     };
-}
+};
+
+// const char *exc::Exception::what() const noexcept
+// {
+//     return this->message_.c_str();
+// }
+
+// exc::Exception::Exception(const std::string &msg) noexcept : message_{msg}
+// {}
